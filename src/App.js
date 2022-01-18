@@ -9,7 +9,7 @@ import Contact from "./views/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/anjulasjay">
       <NavBar></NavBar>
       <Routes>
         <Route exact path="/" element={<Home />} />
