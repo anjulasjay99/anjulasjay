@@ -9,7 +9,7 @@ import Contact from "./views/Contact";
 
 function App() {
   return (
-    <BrowserRouter basename={window.location.pathname || ""}>
+    <div>
       <NavBar></NavBar>
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer></Footer>
-    </BrowserRouter>
+    </div>
   );
 }
 
