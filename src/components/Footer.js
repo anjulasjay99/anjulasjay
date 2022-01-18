@@ -23,7 +23,7 @@ function Footer() {
             <br></br>
             <Row>
               <Col>
-                <Link to="/home">Home</Link>
+                <Link to="/">Home</Link>
                 <br></br>
                 <Link to="/projects">Projects</Link>
                 <br></br>
