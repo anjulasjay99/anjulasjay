@@ -60,14 +60,14 @@ function Home() {
             <p>
               <i>
                 In 2005, I started schooling at Vijaya College, Matale. After
-                the grade 5 scholarship exam, i started schooling at St. Thomas'
-                College, Matale. From grade 10 to 13, i went to Government
+                the grade 5 scholarship exam, I started schooling at St. Thomas'
+                College, Matale. From grade 10 to 13, I went to Government
                 Science College, Matale and did my O/Ls and A/Ls there. I got 8
-                As and 1 B for my O/Ls. After O/Ls, i decided to do my A/Ls in
-                pyhsical science stream. I did my A/Ls in 2019 and i got 3
-                credit passes. After that, in 2020, i decided to follow a
-                software engineering degree at Sri Lanka Institute of
-                Information Technology (SLIIT)
+                As and 1 B for my O/Ls. After O/Ls, I decided to do my A/Ls in
+                pyhsical science stream. I did my A/Ls in 2019 and got 3 credit
+                passes. After that, in 2020, I decided to follow a software
+                engineering degree at Sri Lanka Institute of Information
+                Technology (SLIIT)
               </i>
             </p>
           </Col>
@@ -84,7 +84,7 @@ function Home() {
             <br></br>
             <p>
               <i>
-                Throughout the last two years, i have been able to contribute to
+                Throughout the last two years, I have been able to contribute to
                 many software development projects. Most of them were university
                 projects. However, All those projects exposed me to many
                 technologies and tools and helped me to improve my skills and
