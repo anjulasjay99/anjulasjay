@@ -75,10 +75,7 @@ function Projects() {
               Type : Web Application<br></br>
               Technologies : Java, MySQL, Bootstrap, JavaScript, HTML, CSS
               <br></br> Git repository :{" "}
-              <a
-                href="https://github.com/IT20206864/RecycloWaste_Project"
-                target="_blank"
-              >
+              <a href="https://github.com/anjulasjay/LMS" target="_blank">
                 <i>Click here</i>
               </a>
             </p>

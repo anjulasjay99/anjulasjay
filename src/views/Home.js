@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import Header from "../components/Header";
 import styles from "../assets/css/styles.module.css";
 import Skills from "../components/Skills";
@@ -44,9 +44,10 @@ function Home() {
         <br></br>
         <Row>
           <Col lg={6}>
-            <img
+            <Image
               src={require("../assets/images/plans.jpg")}
-              style={{ width: "100%", height: "350px", borderRadius: "20px" }}
+              fluid={true}
+              style={{ borderRadius: "20px" }}
             />
           </Col>
           <Col lg={6}>
@@ -96,9 +97,10 @@ function Home() {
             </button>
           </Col>
           <Col lg={6} className="d-none d-lg-block">
-            <img
+            <Image
               src={require("../assets/images/projects.jpg")}
-              style={{ width: "100%", height: "350px", borderRadius: "20px" }}
+              fluid={true}
+              style={{ borderRadius: "20px" }}
             />
           </Col>
         </Row>
@@ -113,9 +115,10 @@ function Home() {
         <br></br>
         <Row>
           <Col lg={6}>
-            <img
+            <Image
               src={require("../assets/images/jobs.jpg")}
-              style={{ width: "100%", height: "350px", borderRadius: "20px" }}
+              fluid={true}
+              style={{ borderRadius: "20px" }}
             />
           </Col>
           <Col lg={6}>

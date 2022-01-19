@@ -15,6 +15,7 @@
 .intro {
   width: 100%;
   text-align: center;
+
   border-bottom: 1px solid #000;
   line-height: 0.1em;
   margin: 10px 0 20px;
@@ -28,7 +29,8 @@
     rgba(195, 7, 63, 1) 100%,
     rgba(195, 7, 63, 1) 100%
   );
-  height: auto;
+  max-height: 400px;
+  overflow-y: auto;
   width: 100%;
   border-radius: 20px;
   color: white;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Breadcrumb } from "react-bootstrap";
+import { Container, Row, Col, Breadcrumb, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import styles from "../assets/css/styles.module.css";
 
@@ -22,9 +22,10 @@ function Contact() {
         </Row>
         <Row>
           <Col lg={6}>
-            <img
+            <Image
               src={require("../assets/images/contact.jpg")}
-              style={{ width: "100%", height: "350px", borderRadius: "20px" }}
+              style={{ borderRadius: "20px" }}
+              fluid={true}
             />
           </Col>
           <Col lg={6}>

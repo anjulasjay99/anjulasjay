@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import styles from "../assets/css/styles.module.css";
 
 function Header() {
@@ -25,11 +25,20 @@ function Header() {
               </div>
             </div>
           </Col>
-          <Col sm={6} className="d-none d-lg-block">
-            <img
-              src={require("../assets/images/hello.png")}
-              style={{ weight: "500px", height: "500px" }}
-            />
+          <Col sm={6} className="d-none d-sm-block">
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                width: "100%",
+                height: "100%",
+                paddingTop: "10px",
+                paddingBottom: "10px",
+              }}
+            >
+              <Image src={require("../assets/images/hello.png")} fluid={true} />
+            </div>
           </Col>
         </Row>
       </Container>
