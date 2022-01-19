@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import Header from "../components/Header";
 import styles from "../assets/css/styles.module.css";
 import Skills from "../components/Skills";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 function Home() {
   let navigate = useNavigate();
@@ -133,7 +133,10 @@ function Home() {
                 I want to put my analyzing, designing, and programming skills
                 into practice in order to improve my skills furthermore. Because
                 of that, I am currently looking for a software engineering
-                internship opportunity. If you are a recruiter, please contact
+                internship opportunity. If you are a recruiter, please{" "}
+                <Link to="/contact" style={{ color: "#c3073f" }}>
+                  contact
+                </Link>{" "}
                 me through my email or phone. You can also contact me through
                 Linkedin.
               </i>
